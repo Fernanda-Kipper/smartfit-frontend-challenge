@@ -1,1 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --dark-grey: #333333;
+  --light-grey: #808080;
+  --yellow: #FFB612;
+  --red: #dc0a17;
+  --green: #2FC022;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('assets/fonts/Gotham/gotham-light.woff2') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('assets/fonts/Gotham/gotham-book.woff2') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('assets/fonts/Gotham/gotham-bold.woff2') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+  @font-face {
+  font-family: 'Gotham';
+  src: url('assets/fonts/Gotham/gotham-black.woff2') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}

@@ -1,0 +1,22 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+
+  padding: 24px;
+
+  gap: 32px;
+
+  background-color: var(--dark-grey);
+}
+
+footer img {
+  height: 50px;
+}
+
+footer p {
+  color: var(--light-text);
+}

@@ -1,0 +1,19 @@
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.card-list li {
+  list-style: none;
+}
+
+@media (min-width: 768px) {
+  .card-list {
+    max-width: 80%;
+  }
+}

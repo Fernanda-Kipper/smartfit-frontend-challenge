@@ -1,0 +1,72 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  padding: 12px 8px;
+  border-radius: 8px;
+
+  background-color: rgba(0,0,0,0.1);
+
+  -webkit-box-shadow: 1px 1px 1px 1px rgba(51,51,51,0.15);
+  -moz-box-shadow: 1px 1px 1px 1px rgba(51,51,51,0.15);
+  box-shadow: 1px 1px 1px 1px rgba(51,51,51,0.15);
+
+  gap: 8px;
+
+  width: 250px;
+  height: 400px;
+}
+
+.card .divider {
+  height: 2px;
+  width: 100%;
+  background-color: #d7d7d7;
+}
+
+.card span {
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--red);
+}
+
+.card span.opened {
+  color: var(--green);
+}
+
+.card h3 {
+  color: var(--dark-grey);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card p {
+  color: var(--light-grey);
+  font-size: 14px;
+}
+
+.card ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 24px;
+}
+
+.card li {
+  display: flex;
+  flex-direction: column;
+
+  color: var(--dark-grey);
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.card li b {
+  font-size: 16px;
+  color: var(--dark-grey);
+}
+
+.card img {
+  height: 50px;
+}

@@ -5,7 +5,7 @@ export interface Location {
   opened: boolean,
   mask: string,
   towel: string,
-  foutain: string,
+  fountain: string,
   locker_room: string,
   schedules: Schedule[]
 }

@@ -1,0 +1,5 @@
+<ul class="card-list">
+  <li *ngFor="let card of unitsList">
+    <app-card [card]="card"></app-card>
+  </li>
+</ul>

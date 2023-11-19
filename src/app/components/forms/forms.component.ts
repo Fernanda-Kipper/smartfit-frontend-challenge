@@ -1,8 +1,9 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
-import { FilterUnitsService } from 'src/app/services/filter-units.service';
-import { GetUnitsService } from 'src/app/services/get-units.service';
-import { Location } from 'src/app/types/location.interface';
+
+import { FilterUnitsService } from '../../services/filter-units.service';
+import { GetUnitsService } from '../../services/get-units.service';
+import { Location } from '../../types/location.interface';
 
 @Component({
   selector: 'app-forms',

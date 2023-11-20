@@ -1,4 +1,6 @@
-export const cardMock = {
+import { Location } from "../types/location.interface"
+
+export const locationMock = {
     id: 1,
     title: "titulo",
     content: "",
@@ -8,4 +10,4 @@ export const cardMock = {
     fountain: "",
     locker_room: "",
     schedules: []
-}
+} as Location;

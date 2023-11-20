@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+
 import { BehaviorSubject } from 'rxjs';
 import { Location } from './types/location.interface';
 import { GetUnitsService } from './services/get-units.service';

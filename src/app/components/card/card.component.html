@@ -1,8 +1,8 @@
 <div class="card">
   <span [ngClass]="{
     opened: card.opened
-  }">{{ card.opened ? 'Aberto' : 'Fechado'}}</span>
-  <h3>{{ card.title }}</h3>
+  }">{{ card?.opened ? 'Aberto' : 'Fechado'}}</span>
+  <h3>{{ card?.title }}</h3>
   <p [innerHTML]="card.content"></p>
   <div class="divider"></div>
   <ul>
@@ -13,8 +13,8 @@
   </ul>
   <ul>
     <li *ngFor="let schedule of card.schedules">
-      <b>{{ schedule.weekdays }}</b>
-      {{ schedule.hour }}
+      <b>{{ schedule?.weekdays }}</b>
+      {{ schedule?.hour }}
     </li>
   </ul>
 </div>
